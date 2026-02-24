@@ -8,8 +8,10 @@ public class MatakuliahDemo29 {
         System.out.println("Berapa Matakuliah yang ingin ditambahkan: ");
         int n;
         n = sc.nextInt();
-        Matakuliah29[] arrayOfMatakuliah = new Matakuliah29[n];
         sc.nextLine();
+
+        Matakuliah29[] arrayOfMatakuliah = new Matakuliah29[n];
+        
         
 
         for (int i = 0; i < n; i++) {
