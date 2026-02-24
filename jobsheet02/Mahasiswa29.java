@@ -10,7 +10,7 @@ public class Mahasiswa29 {
         
     }
     
-    // Konstruktor berparameter
+
     public Mahasiswa29(String nm, String nim, double ipk, String kls) {
         nama = nm;
         this.nim = nim;
