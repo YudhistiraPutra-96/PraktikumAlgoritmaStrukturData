@@ -9,6 +9,7 @@ public class MatakuliahDemo29 {
         int n;
         n = sc.nextInt();
         Matakuliah29[] arrayOfMatakuliah = new Matakuliah29[n];
+        sc.nextLine();
         
 
         for (int i = 0; i < n; i++) {
