@@ -18,5 +18,7 @@ public class MahasiswaMain29 {
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
 
+        Mahasiswa29 mhs3 = new Mahasiswa29("Budi Santoso", "2345678901", 3.75, "TI 3A");
+        mhs3.tampilkanInformasi();
     }
 }
