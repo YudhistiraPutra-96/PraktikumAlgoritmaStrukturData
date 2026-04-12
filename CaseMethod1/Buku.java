@@ -9,10 +9,10 @@ public class Buku {
 
     }
 
-    Buku(String kb, String jd, int tht){
-        kodebuku = kb;
-        judul = jd;
-        tahunterbit = tht;
+    Buku(String kode, String judul, int tahun){
+        kodebuku = kode;
+        this.judul = judul;
+        tahunterbit = tahun;
     }
 
     void tampilBuku(){
