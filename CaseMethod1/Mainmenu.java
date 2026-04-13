@@ -49,8 +49,4 @@ public class Mainmenu {
         sc.close();
 
     }
-
-    void datapeminjaman(){
-        
-    }
 }
