@@ -16,6 +16,6 @@ public class Buku {
     }
 
     void tampilBuku(){
-        System.out.println(kodebuku + "\t" + judul + "\t" + tahunterbit);
+        System.out.println(kodebuku + "\t" + judul + "\t\t" + tahunterbit);
     }
 }

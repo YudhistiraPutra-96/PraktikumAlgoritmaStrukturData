@@ -51,6 +51,22 @@ public class DataPeminjaman {
         }
     }
 
+    void urutkanbedasarkantahunterbit(){
+            for (int i = 1; i <= daftarBuku.length-1; i++) {
+            Buku temp = daftarBuku[i];
+            int j = i - 1;
+            while (j >= 0 && daftarBuku[j].tahunterbit < temp.tahunterbit) {
+                daftarBuku[j + 1] = daftarBuku[j];
+                j--;
+            }
+            daftarBuku[j + 1] = temp;
+        }
+        System.out.println("=== SETELAH DIURUTKAN (Bedasarkan tahun terbit) ===");
+        for( int i = 0; i < daftarBuku.length; i++){
+            daftarBuku[i].tampilBuku();
+        }
+    }
+
     void urutkanbedasarkandenda(){
             for (int i = 1; i <= daftarPeminjaman.length-1; i++) {
             Peminjaman temp = daftarPeminjaman[i];

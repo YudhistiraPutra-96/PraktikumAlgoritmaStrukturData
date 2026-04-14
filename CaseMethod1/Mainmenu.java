@@ -13,8 +13,9 @@ public class Mainmenu {
             System.out.println("1. Tampilkan Mahasiswa");
             System.out.println("2. Tampilkan Buku");
             System.out.println("3. Tampilkan Peminjaman");
-            System.out.println("4. Urutkan Berdasarkan Denda");
+            System.out.println("4. Urutkan Buku Berdasarkan Tahun Terbit");
             System.out.println("5. Cari Berdasarkan NIM");
+            System.out.println("6. Urutkan Berdasarkan Denda");
             System.out.println("0. Keluar");
             System.out.print("Pilih: ");
             pilihan = sc.nextInt();
@@ -31,12 +32,15 @@ public class Mainmenu {
                     data.tampilPeminjaman();
                     break;
                 case 4:
-                    data.urutkanbedasarkandenda();
+                    data.urutkanbedasarkantahunterbit();
                     break;
                 case 5:
                     System.out.print("Masukkan NIM: ");
                     String nim = sc.nextLine();
                     data.cariBerdasarkanNIM(nim);
+                    break;
+                case 6:
+                    data.urutkanbedasarkandenda();
                     break;
                 case 0:
                     System.out.println("Terima kasih!");
