@@ -96,7 +96,7 @@ public class AntrianLayanan29 {
         if (IsEmpty()) {
             System.out.println("Antrian kosong.");
         } else {
-            System.out.println("Mahasiswa paling belakang: ");
+            System.out.print("Mahasiswa paling belakang: ");
             System.out.println("NIM - NAMA - PRODI - KELAS");
             data[rear].tampilkandata();
         }
