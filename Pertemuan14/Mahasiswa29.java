@@ -18,9 +18,9 @@ public class Mahasiswa29 {
     }
 
     public void tampilInformasi(){
-        System.out.println("NIM : " + this.nim + " "+
-        "NAMA : " + this.nama + " "+    
-        "KELAS : " + this.kelas + " "+    
-        "IPK : " + this.ipk);
+        System.out.println("| NIM : " + this.nim + " "+
+        "| NAMA :  " + this.nama + " "+    
+        "| KELAS :  " + this.kelas + " "+    
+        "| IPK : " + this.ipk + " |");
     }
 }
