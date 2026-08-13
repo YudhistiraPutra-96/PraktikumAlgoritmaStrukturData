@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Jobsheet12 (Double Linked List)" isTestSource="false" packagePrefix="Jobsheet12" />
+      <sourceFolder url="file://$MODULE_DIR$/P1Jobsheet10 (QUEUE)" isTestSource="false" packagePrefix="P1Jobsheet10" />
+      <sourceFolder url="file://$MODULE_DIR$/P2Jobsheet10 (QUEUE)" isTestSource="false" packagePrefix="P2Jobsheet10" />
+      <sourceFolder url="file://$MODULE_DIR$/P3Jobsheet10 (QUEUE)" isTestSource="false" packagePrefix="P3Jobsheet10" />
+      <sourceFolder url="file://$MODULE_DIR$/Pertemuan12 (LINKED LIST)" isTestSource="false" packagePrefix="Pertemuan12" />
+      <sourceFolder url="file://$MODULE_DIR$/Pertemuan14 (Tree)" isTestSource="false" packagePrefix="Pertemuan14" />
+      <sourceFolder url="file://$MODULE_DIR$/Praktikum05 (SORTING (BUBBLE, SELECTION, DAN INSERTION SORT))" isTestSource="false" packagePrefix="Praktikum05" />
+      <sourceFolder url="file://$MODULE_DIR$/Praktikum14 (Collection)" isTestSource="false" packagePrefix="Praktikum14" />
+      <sourceFolder url="file://$MODULE_DIR$/jobsheet02 (Object)" isTestSource="false" packagePrefix="jobsheet02" />
+      <sourceFolder url="file://$MODULE_DIR$/jobsheet1 (Dasar Pemrograman)" isTestSource="false" packagePrefix="jobsheet1" />
+      <sourceFolder url="file://$MODULE_DIR$/jobsheet3 (Array of Object)" isTestSource="false" packagePrefix="jobsheet3" />
+      <sourceFolder url="file://$MODULE_DIR$/jobsheet6 (SEARCHING)" isTestSource="false" packagePrefix="jobsheet6" />
+      <sourceFolder url="file://$MODULE_DIR$/jobsheet9 (STACK)" isTestSource="false" packagePrefix="jobsheet9" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
